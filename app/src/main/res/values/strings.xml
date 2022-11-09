@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Mei-V</string>
+
+    <string-array name="baiktidak">
+        <item>Baik</item>
+        <item>Tidak Baik</item>
+    </string-array>
+
+    <string-array name="normaltidak">
+        <item>Normal</item>
+        <item>Tidak Normal</item>
+    </string-array>
+
+    <string-array name="levelbbmaki">
+        <item>Full</item>
+        <item>Kurang</item>
+    </string-array>
+
+    <string-array name="baut">
+        <item>Kencang</item>
+        <item>Tidak</item>
+    </string-array>
+
+    <string-array name="role_array">
+        <item>Supervisor</item>
+        <item>Teknisi</item>
+        <item>Admin</item>
+    </string-array>
+
+    <string name="hydrant_description">Hydrant Pemadam Kebakaran adalah sebuah alat atau terminal penghubung untuk bantuan darurat saat terjadi kebakaran</string>
+    <string name="ac_description">AC adalah sebuah alat yang dibuat untuk menstabilkan suhu dan kelembapan udara di suatu ruangan</string>
+    <string name="genset_description">Genset adalah sebuah alat yang terdiri dari pembangkit listrik (generator) dengan mesin penggerak yang disusun menjadi satu kesatuan untuk menghasilkan suatu tenaga listrik dengan besaran tertentu</string>
+    <string name="apar_description"> APAR adalah sebuah alat pemadam api portable yang mudah dibawa, cepat dan tepat di dalam penggunaan untuk awal kebakaran</string>
+    <string name="panellistrik_description">Panel Listrik adalah sebuah alat yang memiliki fungsi untuk membagi, menyalurkan dan kemudian mendistribusikan energi listrik dari sumbernya (pusat) kepada konsumen (pemakai).</string>
+    <string name="firealarm_description">Fire Alarm adalah sebuah sistem yang dibangun dengan tujuan untuk mendeteksi adanya gejala kebakaran pada sebuah gedung atau kantor</string>
+    <string name="penangkalpetir_description">Penangkal Petir adalah sebuah alat yang rangkaian jalur yang difungsikan sebagai jalan bagi petir menuju ke permukaan bumi, tanpa merusak benda-benda yang dilewatinya</string>
+</resources>

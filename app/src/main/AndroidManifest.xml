@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mei_v">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_meiv"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_meiv"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MeiV"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".users.EditPassUser"
+            android:exported="false" />
+        <activity
+            android:name=".users.RegistrasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DownloadReportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MaintenancePenangkalPetirActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MaintenancePanelListrikActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MaintenanceAlarmActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MaintenanceHydrantActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MaintenanceAPARActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailAlatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".users.UserProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MaintenanceACActivity"
+            android:exported="false" />
+        <activity
+            android:name=".users.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CaptureAct"
+            android:screenOrientation="fullSensor"
+            android:stateNotNeeded="true"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
